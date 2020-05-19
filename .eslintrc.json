@@ -24,6 +24,7 @@
         "plugin:@typescript-eslint/recommended"
     ],
     "rules": {
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.test.tsx"]}],
         "import/prefer-default-export": "off",
         "import/extensions": [
             "error",
